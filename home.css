@@ -111,12 +111,6 @@ ul li a:hover {
     
 }
 
-.log {
-    float: right;
-    justify-content: right;
-    align-items: center;
-    margin: 0 30px 0 0;
-}
 .btnn {
     width: 100px;
     height: 40px;
