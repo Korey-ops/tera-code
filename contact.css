@@ -203,5 +203,9 @@ ul li a:hover {
 }
 
 .contact-left button img {
-    height: 15px;
+    height: 45px;
 }   
+
+.contact-right img{
+    width: 500px;
+}
