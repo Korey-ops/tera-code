@@ -34,7 +34,7 @@
     font-family: Arial;
     padding-left: 20px;
     float: left;
-    padding-top: 10px; 
+    padding-top: 27px; 
 }
 
 .menu {
@@ -42,6 +42,7 @@
     float: left;
     height: 70px;
 }
+
 
 ul {
     float: left;
@@ -68,11 +69,34 @@ ul li a {
 ul li a:hover {
     color: #009437;
 }
+ul button {
+    width: 100%;
+    height: 45px;
+    background: #009437;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    transition: .4s ease-in-out;
+}
+ul button:hover {
+    background-color: #FFF000;
+}
 
 .searchbar {
     width: 330px;
     float: left;
     margin-left: 270px;
+    color: #fff;
+}
+
+.srch::placeholder {
+    color: #fff;
 }
 
 .srch {
@@ -81,8 +105,8 @@ ul li a:hover {
     height: 40px;
     background: transparent;
     border: 1px solid #009437;
-    margin-top: 13px;
-    color: #fff;
+    margin-top: 27px;
+    color: #ffffff;
     border-right: none;
     font-size: 16px;
     float: left;
@@ -95,7 +119,7 @@ ul li a:hover {
     height: 40px;
     background: #009437;
     border: 2px solid #009437;
-    margin-top: 13px;
+    margin-top: 27px;
     color: #fff;
     font-size: 15px;
     border-top-right-radius: 5px;
@@ -208,4 +232,14 @@ ul li a:hover {
 
 .contact-right img{
     width: 500px;
+}
+
+@media (max-width: 800px) {
+    .contact-inputs {
+        width: 80vw;
+    }
+
+    .contact-right {
+        display: none;
+    }
 }
