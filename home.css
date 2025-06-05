@@ -14,7 +14,7 @@
 }
 
 .navbar {
-    width: 1200px;
+    width: 100%;
     height: 75px;
     margin: auto;
 }
@@ -26,12 +26,26 @@
 }
 
 .logo {
-    color: #FFF000;
+    color: #fff;
     font-size: 35px;
     font-family: Arial;
-    padding-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     float: left;
-    padding-top: 27px; 
+    margin-top: 17px;
+    padding: 10px 15px;
+    border:  2px solid rgba(255, 255, 255, .4) ;
+    border-radius: 30px; 
+    background-color: #009437;
+    display: flex;
+}
+
+.logo img{
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+    justify-content: left;
+    display: flex;
 }
 
 .menu {
@@ -90,6 +104,8 @@ ul button:hover {
     float: left;
     margin-left: 270px;
     color: #fff;
+    justify-content: right;
+    align-items: right;
 }
 
 .srch::placeholder {
