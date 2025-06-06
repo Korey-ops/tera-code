@@ -51,6 +51,14 @@
     justify-content: left;
     display: flex;
 }
+
+.logo a{
+    justify-content: left;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+}
+
 .menu {
     width: 400px;
     float: left;
