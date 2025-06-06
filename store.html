@@ -1,13 +1,21 @@
 <html>
   <head>
     <title>Login - Regrow</title>
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Typescript UI Controls">
+    <meta name="author" content="Syncfusion">
+    <link href="https://cdn.syncfusion.com/ej2/29.2.4/ej2-base/styles/material.css" rel="stylesheet">
     <link rel="stylesheet" href="store.css">
 	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="icon" type="image/x-icon" href="Logo-crop.png">
   </head>
 
-  <body>
+<script src="https://cdn.syncfusion.com/ej2/29.2.4/dist/ej2.min.js" type="text/javascript"></script>
+<script src="https://cdn.syncfusion.com/ej2/syncfusion-helper.js" type ="text/javascript"></script>
 
+  <body>
+<script src="contact.js"></script>
 
 	<div class="wrapper">
 		<form action="">
@@ -28,12 +36,24 @@
                 <label><input type="checkbox"> remember me </label>
                 <a href="#">forgot password?</a>
             </div>
-            <button type="submit"  class="btn"><a href="Home.html">Login</a></button>
-
+            <div id="container">
+              <button class="btn" id="element">Login</button>
+            </div>
+            
             <div class="register-link">
                 <p>don't have an acount? <a href="#">register</a></p>
             </div>
+            <script>
+var ele = document.getElementById('container');
+if(ele) {
+  ele.style.visibility = "visible";
+}   
+      </script>
+<script src="contact.js" type="text/javascript"></script>
 		</form>
+
+
+</script>
 	</div>
   </body>
 </html>        
