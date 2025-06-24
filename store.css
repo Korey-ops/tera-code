@@ -99,23 +99,15 @@ body{
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     cursor: pointer;
     font-size: 16px;
-    color: #333;
+    color: #fff;
     font-weight: 600;
     transition: .4s ease-in-out;
 }
 
-.btn a {
-    transition: .4s ease-in-out;
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.btn a:hover{
-    color: #009437;
-}
 
 .btn:hover {
     background-color: #fff000;
+    color: #009437;
 }
 
 .wrapper .register-link {
