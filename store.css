@@ -15,6 +15,37 @@ body{
 
 }
 
+
+.logo {
+    color: #fff;   
+    font-size: 70px;
+    font-family: Arial;
+    margin-left: 10px;
+    margin-right: 50px;
+    float: left;
+    margin-top: 17px;
+    padding: 10px 15px;
+    border:  2px solid rgba(255, 255, 255, .4) ;
+    border-radius: 30px; 
+    background-color: #009437;
+    display: flex;
+}
+
+.logo img{
+    width: 70px;
+    height: 70px;
+    margin-right: 5px;
+    justify-content: top    ;
+    display: flex;
+}
+
+.logo a{
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+}
+
 .wrapper{
     width: 420px;
     background: transparent;
