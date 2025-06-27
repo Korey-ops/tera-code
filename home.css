@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* Setting the paramaters for the outcomes template and the 
+size for different devices aswell as a background image*/
 .main {
     width: 100%;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.25)50%,rgba(0, 0, 0, 0.25)50%), 
@@ -13,6 +15,8 @@
     height: 100vh;
 }
 
+
+/*Setting the dimensions for the navbar at the top of the page*/
 .navbar {
     width: 100%;
     height: 105px;
@@ -21,12 +25,14 @@
         
 }
 
+/*width and height for the logo class*/
 .icon {
     width: 200px;
     float: left;
     height: 70px;
 }
 
+/*Settign the border anx the text colour for the logo image of the navbar*/
 .logo {
     color: #fff;   
     font-size: 35px;
@@ -42,6 +48,7 @@
     display: flex;
 }
 
+/*Setting the exct sizing for the image in the logo button*/
 .logo img{
     width: 35px;
     height: 35px;
@@ -50,6 +57,7 @@
     display: flex;
 }
 
+/*Hyperling the logo makes the text with a link colour this sets it back to normal*/
 .logo a{
     justify-content: left;
     display: flex;
@@ -57,13 +65,14 @@
     color: #fff;
 }
 
+/*settin the dimensions of the links for the different pages*/
 .menu {
     width: 400px;
     float: left;
     height: 70px;
 }
 
-
+/*setting where the list for the navbar will go*/
 ul {
     float: center;
     display: flex;
@@ -72,6 +81,8 @@ ul {
     margin-left: 720px;
 }
 
+
+/*setting the margins between each list item*/
 ul li {
     list-style: none;
     margin-left: 62px;
@@ -80,9 +91,7 @@ ul li {
 }
 
 
-ul li a:hover {
-    color: #009437;
-}
+/*setting the transitions for the button aswell as how big they are*/
 ul button {
     width: 100%;
     height: 45px;
@@ -100,17 +109,21 @@ ul button {
     font-weight: bold;
     transition: 0.2s ease-in-out;
 }
+
+/*When hovering on the button change the button and the text colour*/
 ul button:hover {
     background-color: #FFF000;
     color: #009437;
 }
 
+/*where the dropdown will be*/
 .dropdown {
   position: relative;
   display: inline-block;
   border-radius: 40px;
 }
 
+/**/
 .dropdown-content {
   display: none;
   position: absolute;
@@ -120,6 +133,8 @@ ul button:hover {
   z-index: 1;
 }
 
+
+/*The content of the dropdown and the text colouration*/
 .dropdown-content p {
   color: black;
   padding: 12px 16px;
@@ -127,14 +142,14 @@ ul button:hover {
   display: block;
 }
 
+/*When hovering show content*/
 .dropdown-content a:hover {background-color: #ddd;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
-Example Explained
 
-
+/*Colour and alignment of the searchbar*/
 .searchbar {
     width: 330px;
     float: right;
@@ -143,10 +158,14 @@ Example Explained
     align-items: right;
 }
 
+
+/*type to search colour*/
 .srch::placeholder {
     color: #fff;
 }
 
+
+/*Setting borders font and tranparenting the background*/
 .srch {
     font-family: 'Times New Roman';
     width: 200px;
@@ -159,10 +178,12 @@ Example Explained
     font-size: 16px;
     float: left;
     padding: 10px;
-    margin-left: 990px;
+    margin-left: 990    px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
+
+/*The searchbutton size colour and border*/
 .btn {
     align-items: right;
     width: 100px;
@@ -176,6 +197,7 @@ Example Explained
     border-bottom-right-radius: 5px;
 }
 
+/*when selected no outline*/
 .btn:focus {
     outline: none;
 }
@@ -185,27 +207,7 @@ Example Explained
     
 }
 
-.btnn {
-    width: 100px;
-    height: 40px;
-    background: #009437;
-    border: none;
-    margin-top: 13px;
-    color: #fff;
-    font-size: 15px;
-    border-radius: 10px;
-    transition: 0.4s ease-in-out;
-}
-
-.btnn a {
-    text-decoration: none;
-    color: #000;
-}
-
-.btnn:hover {
-    background-color: #fff;
-}
-
+/*The paragraph box for the */
 .content {
     width: 1200px;
     height: auto;
@@ -220,6 +222,7 @@ Example Explained
     padding: 30px 40px;
 }
 
+/*font and text type of the about us*/
 .content .para {
     padding-left: 20px;
     padding-bottom: 25px;
@@ -228,6 +231,7 @@ Example Explained
     line-height: 30px;
 }
 
+/*Styling of the Heading for the about us content*/
 .content h1 {
     font-family: 'Times New Roman';
     font-size: 50px;
@@ -236,6 +240,8 @@ Example Explained
     letter-spacing: 2px;
 }
 
+
+/*button colour and size parameters*/
 .content .cn {
     width: 160px;
     height: 40px;
@@ -249,12 +255,14 @@ Example Explained
     transition: 0.4s ease;
 }
 
+/*link decoration and text colour*/
 .content .cn a {
     text-decoration: none;
     color: #000;
     transition: .3s ease;
 }
 
+/*When hovering on the button make the colour white*/
 .cn:hover {
     background-color: #fff;
 }

@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+
+/* Setting the paramaters for the outcomes template and the 
+size for different devices aswell as a background image*/
 .main {
     width: 100%;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.25)50%,rgba(0, 0, 0, 0.25)50%), 
@@ -14,6 +17,7 @@
     overflow: hidden;
 }
 
+/*Setting the dimensions for the navbar at the top of the page*/
 .navbar {
     width: 100%;
     height: 105px;
@@ -22,12 +26,15 @@
         
 }
 
+/*width and height for the logo class*/
 .icon {
     width: 200px;
     float: left;
     height: 70px;
 }
 
+
+/*Settign the border anx the text colour for the logo image of the navbar*/
 .logo {
     color: #fff;   
     font-size: 35px;
@@ -43,6 +50,7 @@
     display: flex;
 }
 
+/*Setting the exct sizing for the image in the logo button*/
 .logo img{
     width: 35px;
     height: 35px;
@@ -51,6 +59,7 @@
     display: flex;
 }
 
+/*Hyperling the logo makes the text with a link colour this sets it back to normal*/
 .logo a{
     justify-content: left;
     display: flex;
@@ -58,13 +67,14 @@
     color: #fff;
 }
 
+/*settin the dimensions of the links for the different pages*/
 .menu {
     width: 400px;
     float: left;
     height: 70px;
 }
 
-
+/*setting where the list for the navbar will go*/
 ul {
     float: center;
     display: flex;
@@ -73,6 +83,7 @@ ul {
     margin-left: 720px;
 }
 
+/*setting the margins between each list item*/
 ul li {
     list-style: none;
     margin-left: 62px;
@@ -80,10 +91,8 @@ ul li {
     font-size: 14px;
 }
 
-ul li a:hover {
-    color: #009437;
-}
 
+/*setting the transitions for the button aswell as how big they are*/
 ul button {
     width: 100%;
     height: 45px;
@@ -102,11 +111,14 @@ ul button {
     transition: 0.2s ease-in-out;
 }
 
+/*When hovering on the button change the button and the text colour*/
 ul button:hover {
     background-color: #FFF000;
     color: #009437;
 }
 
+
+/*Colour and alignment of the searchbar*/
 .searchbar {
     width: 330px;
     float: right;
@@ -115,10 +127,13 @@ ul button:hover {
     align-items: right;
 }
 
+
+/*type to search colour*/
 .srch::placeholder {
     color: #fff;
 }
 
+/*Setting borders font and tranparenting the background*/
 .srch {
     font-family: 'Times New Roman';
     width: 200px;
@@ -135,6 +150,8 @@ ul button:hover {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
+
+/*The searchbutton size colour and border*/
 .btn {
     align-items: right;
     width: 100px;
@@ -148,6 +165,8 @@ ul button:hover {
     border-bottom-right-radius: 5px;
 }
 
+
+/*when selected no outline*/
 .btn:focus {
     outline: none;
 }
@@ -157,27 +176,7 @@ ul button:hover {
     
 }
 
-.btnn {
-    width: 100px;
-    height: 40px;
-    background: #009437;
-    border: none;
-    margin-top: 13px;
-    color: #fff;
-    font-size: 15px;
-    border-radius: 10px;
-    transition: 0.4s ease-in-out;
-}
-
-.btnn a {
-    text-decoration: none;
-    color: #000;
-}
-
-.btnn:hover {
-    background-color: #fff;
-}
-
+/*overall content parameters*/
 .contact-container {
     height: 100vh;
     display: flex;
@@ -186,6 +185,7 @@ ul button:hover {
 
 }
 
+/*area for the imput content*/
 .contact-left{
     margin-top: -20px;
     display: flex;
@@ -195,6 +195,7 @@ ul button:hover {
     margin-bottom: -30px;
 }
 
+/*colouting of the h2 title*/
 .contact-left-title h2{
     font-weight: 600;
     color: #009437;
@@ -202,6 +203,8 @@ ul button:hover {
     margin-bottom: 5px;
 }
 
+
+/*styling the title*/
 .contact-left-title hr{
     border: none;
     width: 120px;
@@ -211,6 +214,8 @@ ul button:hover {
     margin-bottom: 20px;
 }
 
+
+/*size of the input boxes aswell as the padding*/
 .contact-inputs {
     width: 400px;
     height: 50px;
@@ -222,21 +227,26 @@ ul button:hover {
     border-radius: 50px;
 }
 
+/*size of the ara for the text in the input box*/
 .contact-left textarea{
     height: 140px;
     padding-top: 15px;
     border-radius: 20px;
 }
 
+
+/*When selected make the outline of the contact box yellow*/
 .contact-inputs:focus{
     border: 2px solid #FFF000;
 }
 
+/*placeholder text colour*/
 .contact-inputs::placeholder{
     color: #a9a9a9;
 
 }
 
+/*size of the submit button*/
 .contact-left button{
     display: flex;
     align-items: center;
@@ -250,16 +260,21 @@ ul button:hover {
     cursor: pointer;
 }
 
+/*Arrow on the submit button*/
 .contact-left button img {
     height: 45px;
 }   
 
+
+/*size and margins of the image*/
 .contact-right img{
     margin-top: -20px;
     margin-bottom: -30px;
     width: 500px;
 }
 
+
+/*When the screen is too small dont show the logo image*/
 @media (max-width: 800px) {
     .contact-inputs {
         width: 80vw;
