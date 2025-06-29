@@ -11,20 +11,26 @@
         <link rel="icon" type="image/x-icon" href="Logo-crop.png">
     </head>
 
+<!-- outside libraries -->
 <script src="https://cdn.syncfusion.com/ej2/29.2.4/dist/ej2.min.js" type="text/javascript"></script>
 <script src="https://cdn.syncfusion.com/ej2/syncfusion-helper.js" type ="text/javascript"></script>
 
 <body>
+    <!-- The overall body class of the site-->
     <div class="main">
         <div class="navbar">
+            <!-- Icon with image that is linked to the home page -->
             <div class="icon">
                 <h2 class="logo"><a href="Home.html"><img src="Logo-crop.png" alt="" class="Logo-img">Regrow</a></h2>
             </div>
 
+
+            <!-- Navbar content in th eoverall class menu and in a list -->
             <div class="menu" id="container">
                 <ul>
                     <li><button>Home</button></li>
                     <li>
+                        <!-- dropdown for email and instagram -->
                         <div class="dropdown">
                             <button class="dopbtn" id="contact" onclick="location.href='contact.html'">Contact</button>
                             <div class="dropdown-content">
@@ -36,7 +42,8 @@
                     <li><button id="store" onclick="location.href='store.html'">Login</button></li>
                 </ul>
             </div>
-
+            
+            <!-- The searchbar being defined and the inputs aswell -->
             <div class="searchbar">
                 <input class="srch" type="search" name="" placeholder="Type To Search">
                 <a href="#"><button class="btn">Search</button></a>
@@ -45,6 +52,7 @@
 
 
         </div>
+        <!-- The class for the text that is on the website and the content within -->
         <div class="content">
             <h1> Who We Are<br></h1>
             <p class="para"> At regrow terrariums we strive to provide a service that can reach the hearts of your loved ones
@@ -59,13 +67,5 @@
 
         </div>
     
-    <script>
-var ele = document.getElementsByClassName('menu');
-if(ele) {
-  ele.style.visibility = "visible";
-}   
-      </script>
-<script src="Login.js" type="text/javascript"></script>
-    </div>
-</body>
-</html>
+
+    <!-- Script for the button -->

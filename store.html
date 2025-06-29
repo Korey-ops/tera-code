@@ -10,11 +10,12 @@
 	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="icon" type="image/x-icon" href="Logo-crop.png">
   </head>
-
+<!-- Outside libraries -->
 <script src="https://cdn.syncfusion.com/ej2/29.2.4/dist/ej2.min.js" type="text/javascript"></script>
 <script src="https://cdn.syncfusion.com/ej2/syncfusion-helper.js" type ="text/javascript"></script>
 
   <body>
+<!-- Home button in the form of the logo -->
 <script src="contact.js"></script>
 <div class="navbar">
   <div class="icon">
@@ -26,29 +27,33 @@
 	<div class="wrapper">
 		<form action="">
 			<h1>login</h1>
+            <!-- Input for username -->
             <div class="inputbox">
                 <input type="text" 
                 placeholder="username" required>
                 <i class='bx bxs-user' ></i>
             </div>
-            
+            <!-- Input for password -->
             <div class="inputbox">
                 <input type="password" 
                 placeholder="password" required>
                 <i class='bx bxs-lock-alt' ></i>
             </div>
             
+            <!-- Remember me checkbox and forgot password button -->
             <div class="remember-forgot">
                 <label><input type="checkbox"> remember me </label>
                 <a href="#">forgot password?</a>
             </div>
+            <!-- Login button -->
             <div id="container">
               <button class="btn" id="element">Login</button>
             </div>
-            
+            <!-- button for if you want to register -->
             <div class="register-link">
                 <p>don't have an acount? <a href="#">register</a></p>
             </div>
+            <!-- Script for the button -->
             <script>
 var ele = document.getElementById('container');
 if(ele) {
